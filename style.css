@@ -1,0 +1,128 @@
+*
+{
+  margin: 0px auto;
+  padding: 0px;
+}
+ .body
+{ 
+  white-space: nowrap;
+  width:1420px;
+  height:2500px;   
+  overflow:hidden;
+}
+ .head
+ { 
+   text-align: end;
+   width: 100%;
+   height: 900px;
+   background-image:url(st/0.jpg);
+   background-size:100% 100% ;
+ }
+ .jg
+ {
+  white-space: nowrap;
+  width:100%;     
+  height:20px;
+  background-color:white;
+  overflow:auto
+ }
+ .left
+{
+ float: left;
+ width:48%;
+ height: 100%;
+}
+ .right
+{
+ float: right;
+ width: 48%;
+ height: 100%;
+}
+.leftbody
+{
+  margin-bottom: 40px;
+  width: 100%;
+  height: 440px;
+}
+.rightbody
+{ 
+  margin-bottom: 40px;
+  width:100%;
+  height:440px;
+}
+ .box
+{
+  width:100%;
+  height:80%;
+  word-break: break-all;
+  background-size: 100% 100%;
+}
+.text
+{
+  width:100%;
+  height:20%;
+  word-break: break-all;
+  background-color: burlywood;
+}
+@media (max-width: 900px)
+{
+  .body
+  { 
+    white-space: nowrap;
+    width:800px;
+    height:3800px;   
+    overflow:hidden;
+  }
+  .head
+  {
+    width: 100%;
+    height: 440px;
+    background-image:url(st/0f.jpg);
+    background-size:100% 100% ;
+  }
+  .left
+  {
+   float: left;
+   width:100%;
+   height: 49%;
+   background-image: url(st/8.jpg);
+   background-repeat: no-repeat;
+   background-size:100% 100% ;
+  }
+   .right
+  {
+   float: left;
+   width: 100%;
+   height: 49%;
+  }
+}
+#right
+{
+  float:right;
+}
+#left
+{
+  float: left;
+}
+ img
+ { 
+   -webkit-user-drag: none;
+ } 
+ span
+ {
+   font-size:18px;
+ }
+ h1
+ { 
+   color: white;
+   font-weight: lighter;
+ }
+ h6
+ {
+  padding-top: 4px;
+  width:97%;
+  height:34px;
+  font-size: large;
+  font-weight: lighter;
+  border: 1px solid lightgray;
+ }
